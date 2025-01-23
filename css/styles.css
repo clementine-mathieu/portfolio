@@ -347,6 +347,38 @@ h3{
     margin: 1rem;
   }
 
+  #details{
+    padding: 2rem;
+    text-align: center;
+    border-radius: var(--border-radius);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#features{
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#features ul{
+    list-style: none;
+}
+#features ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: var(--text-color);
+    position: relative;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
 footer{
     text-align: center;
+    padding: 1rem 0;
 }
